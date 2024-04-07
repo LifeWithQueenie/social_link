@@ -131,17 +131,11 @@ a:visited {
 }
 
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 768px) {
     /* Adjustments for smaller screens */
-    .image-container{
-        margin-top: 130%;
-    }
     .container {
-        max-width: 50%; /* Adjust container width */
-        margin-top: 20%; /* Adjust top margin */
-        width: 300px;
+        max-width: 90%; /* Adjust container width */
     }
-   
 }
 
 /* Apply tablet styles */
@@ -151,5 +145,4 @@ a:visited {
         max-width: 80%; /* Adjust container width */
         margin-top: 15%; /* Adjust top margin */
     }
-
 }
